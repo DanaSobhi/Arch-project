@@ -2,7 +2,7 @@
 .globl	main
 main:
 #Made By Dana Ghnimat 1200031 Section 1
-#Made By Nada AbuSaif 1200202 Section 2 
+
 	#open a file for reading
   	li $v0, 13 # system call for open file
  	la $a0, filename # file name
